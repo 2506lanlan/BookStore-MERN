@@ -28,7 +28,7 @@ const Home = () => {
             <div className='flex justify-between items-center'>
                 <h1 className='text-3xl my-8 mx-5'>Book list</h1>
                 <Link to='/books/create'>
-                    <MdOutlineAddBox className='text-sky-600 text-4xl px-1' />
+                    <MdOutlineAddBox className='text-sky-600 text-4xl px-1 hover:text-sky-400' />
                 </Link>
             </div>
             {
@@ -63,13 +63,13 @@ const Home = () => {
                                     <td className='border border-slate-700 rounded-lg text-center'>
                                         <div className='flex justify-center gap-x-4'>
                                             <Link to={`/books/details/${book._id}`}>
-                                                <BsInfoCircle className='text-2xl text-green-800' />
+                                                <BsInfoCircle className='text-2xl text-green-800 hover:text-green-400' />
                                             </Link>
                                             <Link to={`/books/edit/${book._id}`}>
-                                                <AiOutlineEdit className='text-2xl text-yellow-500' />
+                                                <AiOutlineEdit className='text-2xl text-yellow-600 hover:text-yellow-400' />
                                             </Link>
                                             <Link to={`/books/delete/${book._id}`}>
-                                                <MdOutlineDelete className='text-2xl text-red-400' />
+                                                <MdOutlineDelete className='text-2xl text-red-500 hover:text-red-300' />
                                             </Link>
                                         </div>
                                     </td>
