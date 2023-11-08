@@ -1,2 +1,2 @@
 # BookStore-MERN
-This is a beginner project create with MERN.
+This is a beginner project created with MERN.
